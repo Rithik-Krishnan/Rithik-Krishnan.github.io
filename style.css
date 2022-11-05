@@ -1,6 +1,36 @@
-nav{
-    color:black;
-    font-family: 'Times New Roman', Times, serif;
-    align-items: center;
+body{
+    background-color: white;
 
+}
+nav{
+    word-spacing: 25px;
+    padding-top: 10px;
+    position: absolute;
+    right: 190px;
+}
+
+ a{
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+a:hover{
+    color: rgb(43, 162, 236);
+    transition: 0.3s;
+}
+.img-cont{
+    position: absolute;
+    height: 609px;
+    width: 520px;
+    top:0px;
+    padding-left:0px;
+}
+.myself-cont p{
+    position: absolute;
+    right:80px;
+    width:450px;
+    top:50px;
 }
