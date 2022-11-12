@@ -3,24 +3,40 @@ body{
 
 }
 nav{
-    word-spacing: 25px;
+    word-spacing: 30px;
     padding-top: 10px;
     position: absolute;
     right: 190px;
 }
 
  a{
-    color:black;
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
     text-decoration: none;
     padding: 10px;
+    color:black;
     
 }
-a:hover{
+nav a:hover{
     color: rgb(43, 162, 236);
     transition: 0.3s;
 }
+a.link:hover{
+    fill:#0A66C2;
+
+}
+
+a.git:hover{
+    fill:grey;
+
+}
+
+a.mail svg{
+    fill:#15a5ee
+}
+
+
 .img-cont{
     position: absolute;
     height: 609px;
@@ -33,4 +49,42 @@ a:hover{
     right:80px;
     width:450px;
     top:50px;
+}
+
+svg{
+    position:absolute;
+    height: 1.2rem;
+    width: 1.2rem;
+    
+
+}
+a#mail:hover{
+    fill:blue;
+
+}
+.card{
+    font-family: 'Handlee', cursive;
+    left: 560px;
+    top:80px;
+    position:absolute;
+    background-color:white;
+    border:solid 4px black;
+    width: 20%;
+    box-shadow: 
+    15px 15px 0 -4px white,
+    15px 15px black;
+    padding:10px;
+}
+.auto{
+    font-family: 'Handlee', cursive;
+    left: 590px;
+    top:270px;
+    position:absolute;
+
+}
+div.cv a svg{
+    position:absolute;
+    float: right;
+    top:270px;
+    left:660px;
 }
