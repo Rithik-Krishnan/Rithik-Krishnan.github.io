@@ -5,56 +5,148 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,200" />
     <title>Intro</title>
 </head>
     <body>
+        <div class="fade fadeOut">
             <nav>
-                <a href="#home">Home</a>
-                <a href ="#Projects">Projects</a>
-                <a href="#Skills">Skills</a>
-                <a href="#Hobbies">Hobbies</a>
-                <a class= "git" style ="right:-33px;top:1px;" href= "https://github.com/Rithik-Krishnan"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-labelledby="GithubIcoTitle" class="ico"><title id="GithubIcoTitle">GitHub logo</title><path stroke="none" fill-rule="evenodd" d="M8 0C3.6 0 0 3.6 0 8c0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4v-1.4c-2.2.5-2.7-1.1-2.7-1.1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.2 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6 0 1.3-.1 2-.1s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.3.6.8.6 1.5v2.2c0 .2.1.5.6.4C13.7 14.5 16 11.5 16 8c0-4.4-3.6-8-8-8z" clip-rule="evenodd"></path></svg></a>
-                <a class = "link" style="top:2px;right:-85px;" href="https://linkedin.com/in/rithikr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-labelledby="LinkedinIcoTitle" class="ico"><title id="LinkedinIcoTitle">LinkedIn logo</title><path stroke="none" d="M14.8 0H1.2C.5 0 0 .5 0 1.2v13.7c0 .6.5 1.1 1.2 1.1h13.6c.7 0 1.2-.5 1.2-1.2V1.2c0-.7-.5-1.2-1.2-1.2zM4.7 13.6H2.4V6h2.4v7.6zM3.6 5c-.8 0-1.4-.7-1.4-1.4 0-.8.6-1.4 1.4-1.4.8 0 1.4.6 1.4 1.4-.1.7-.7 1.4-1.4 1.4zm10 8.6h-2.4V9.9c0-.9 0-2-1.2-2s-1.4 1-1.4 2v3.8H6.2V6h2.3v1c.3-.6 1.1-1.2 2.2-1.2 2.4 0 2.8 1.6 2.8 3.6v4.2z"></path></svg></a>
-                <a style = "top:3px;right:-130px;" href="mailto:krishnanrithik98@gmail.com"><svg width="24px" height="34px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path id="mail" fill="none" stroke="#000" clip-rule="evenodd" stroke-width="2" d="M1,4 L23,4 L23,20 L1,20 L1,4 Z M1,5 L12,13.5 L23,5"/></svg></a>
+                
+                <a id = "git"  href= "https://github.com/Rithik-Krishnan"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-labelledby="GithubIcoTitle" class="ico"><title id="GithubIcoTitle">GitHub logo</title><path stroke="none" fill-rule="evenodd" d="M8 0C3.6 0 0 3.6 0 8c0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4v-1.4c-2.2.5-2.7-1.1-2.7-1.1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.2 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6 0 1.3-.1 2-.1s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.3.6.8.6 1.5v2.2c0 .2.1.5.6.4C13.7 14.5 16 11.5 16 8c0-4.4-3.6-8-8-8z" clip-rule="evenodd"></path></svg></a><br>
+                <a id = "link"  href="https://linkedin.com/in/rithikr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-labelledby="LinkedinIcoTitle" class="ico"><title id="LinkedinIcoTitle">LinkedIn logo</title><path stroke="none" d="M14.8 0H1.2C.5 0 0 .5 0 1.2v13.7c0 .6.5 1.1 1.2 1.1h13.6c.7 0 1.2-.5 1.2-1.2V1.2c0-.7-.5-1.2-1.2-1.2zM4.7 13.6H2.4V6h2.4v7.6zM3.6 5c-.8 0-1.4-.7-1.4-1.4 0-.8.6-1.4 1.4-1.4.8 0 1.4.6 1.4 1.4-.1.7-.7 1.4-1.4 1.4zm10 8.6h-2.4V9.9c0-.9 0-2-1.2-2s-1.4 1-1.4 2v3.8H6.2V6h2.3v1c.3-.6 1.1-1.2 2.2-1.2 2.4 0 2.8 1.6 2.8 3.6v4.2z"></path></svg></a><br>
+                <!--<a style = "top:3px;right:-130px;" href="mailto:krishnanrithik98@gmail.com"><svg id="mail" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ico"><path id = "blackbor"d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline id="blackbor" points="22,6 12,13 2,6"></polyline></svg></a>-->
             </nav>
 
             <img class = "img-cont" src = "img/ny.jpg">
+            
+            <div class="tracking-in-expand-fwd" id="box" style="top:130px;left:590px">
+                <h1 class="alpha">A</h1>
+                <h1 class="alpha">l</h1>
+                <h1 class="alpha">o</h1>
+                <h1 class="alpha">h</h1>
+                <h1 class="alpha">a</h1>
+                <h1 class="alpha">!</h1>
+               
+            </div>
+
+            <div id="box-2" style="top:123px;left:755px">
+                <h1 class="alpha">I&nbsp;</h1>
+                <h1 class="alpha">a</h1>
+                <h1 class="alpha">m&nbsp;</h1>
+                <h1 class="alpha">R</h1>
+                <h1 class="alpha">i</h1>
+                <h1 class="alpha">t</h1>
+                <h1 class="alpha">h</h1>
+                <h1 class="alpha">i</h1>
+                <h1 class="alpha">k</h1>
+               
+            </div>
+
+            <div class="container">
+                
+                <h1>Application developer</h1>
+                <p>I am an enthusiastic developer with a hunger to learn new technology.
+                You know some people say <b>EAT → CODE → SLEEP → REPEAT </b>! Well i do that.</p>
+                <p>Coding is one of my hobby now i intend to make that my profession</p>
+            
+            </div>
+           
+        </div>
+
         
-<div class = "myself-cont">
-    <div class = "card">
-        <h2>Aloha ! This is Rithik</h2>
-        <h2><span class = "autotype"></span></h2>
-    </div>
-    <div class = "cv">
-        <h2 style="left:-30px">Download my <b style="color:rgb(43, 162, 236);">CV</b></h2>
-        <a style = "left:79px;" class="cvicon" href="/Portfolio-Rithik/resume/Resume.pdf" download>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-            <path fill="none" stroke="#000" stroke-width="2" d="M1,17 L1,23 L23,23 L23,17 M12,2 L12,19 M5,12 L12,19 L19,12"/>
-            </svg>
-        </a>
-    </div>
-    <div class = "education">
-        <p style="width:700px;">Currently pursuing <u>B.E Computer Science and Engineeing</u> in Jerusalem College of 
-            Engineeing (Anna University), i did my schooling in Sai Matriculation Higher 
-            Secondary School and Holy Prince Matriculation Higher Secondary School.I love to code.
-            I developed some small projects and large projects as well.All the developers know the 
-            cycle called Eat &#127822;, Sleep &#128164;, Code &#128187;, Repeat &#128257;, well i do 
-            that &#128517;! But does is make me happy? all developers can have that question, myself 
-            it makes me happy and my curiosity gets increased each time i learn new technology
-        </p>
-    </div>
-</div>
+        <div class="fade fadeOut">
+            <h1 style="font-family:'Handlee', cursive;font-family:'Montserrat', sans-serif;font-size:50px;margin-left:20px;margin-top:-20px;">Skills and Experience</h1>
+            <span class="Sphere"></span>
+            
+        </div>
+
+    <!-- JS -->
+        
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
         <script>
-            var typed = new Typed(".autotype", {
-                strings: ["I am an Application developer"],
-                typeSpeed: 100,
-                loop:false
-            })
+            
+            
+                const elements = document.getElementsByClassName('alpha');
+        
+                for (let i = 0; i<=elements.length; i++)
+                {
+                    elements[i].addEventListener('animationend',function(e){
+                        elements[i].classList.remove('animated');
+                    });
+        
+                    elements[i].addEventListener('mouseover',function(e){
+                        elements[i].classList.add('animated')
+                    })
+                }  
         </script>
+        
+
+    <!-- Including the TagCloud.js script CDN in the document    -->
+    <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        const Texts = [
+            'HTML', 'CSS', 'Bash',
+            'openCV', 'Git', 'Flask',
+            'PYTHON', 'DJANGO', 'Sqlite',
+            'VM(Basic)','Agile','Mideapipe'
+        ];
+
+        var tagCloud = TagCloud('.Sphere', Texts, {
+
+            // Sphere radius in px
+            radius: 216,
+
+            // animation speed
+            // slow, normal, fast
+            maxSpeed: 'medium',
+            initSpeed: 'fast',
+
+            // Rolling direction [0 (top) , 90 (left), 135 (right-bottom)] 
+            direction: 125,
+
+            // interaction with mouse or not [Default true (decelerate to rolling init speed, and keep rolling with mouse).]
+            keep: true
+
+        });
+
+        // Giving color to each text in sphere
+        var color = '#000000 ';
+        document.querySelector('.Sphere').style.color = color;
+
+//scrolling ANIMATION
+
+const observerOptions = {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.7
+  };
+  
+  function observerCallback(entries, observer) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        // fade in observed elements that are in view
+        entry.target.classList.replace('fadeOut', 'fadeIn');
+      } else {
+        // fade out observed elements that are not in view
+        entry.target.classList.replace('fadeIn', 'fadeOut');
+      }
+    });
+  }
+  
+  const observer = new IntersectionObserver(observerCallback, observerOptions);
+  
+  const fadeElms = document.querySelectorAll('.fade');
+  fadeElms.forEach(el => observer.observe(el));
+    </script>
+
     </body>
 </html>

@@ -1,49 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&display=swap');
 body{
-    background-color: white;
+    background-color: #FAF9F6;
     overflow-x: hidden;
 }
 nav{
-    word-spacing: 30px;
-    padding-top: 10px;
-    position: absolute;
-    right: 190px;
-}
-
- a{
     
+    position: absolute;
+    right: 290px; 
+}
+img.rithiklogo{
+  position: relative;
+  left: 530px;
+  top:-460px
+}
+ a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
     text-decoration: none;
-    padding: 10px;
     color:black;
-    
+}
+
+a#git{
+    left:41vh;
+    top:-12vh;
+}
+a#link{
+    left:35vh;
+    top:-91px;
 }
 nav a:hover{
     color: rgb(43, 162, 236);
     transition: 0.3s;
 }
-a.link:hover{
+#link:hover{
     fill:#0A66C2;
     transition: 0.3s;
 }
 
-a.git:hover{
+#git:hover{
     fill:#964B00;
     transition: 0.3s;
 }
 
 #mail:hover{
     fill:#15a5ee;
-    transition: fill 0.6s ease-out;   
+    transition: 0.3s;   
     
 }
-
+#blackbor{
+    color: black; /*To give the mail icon black border*/
+}
 .img-cont{
     position: absolute;
     height: 609px;
-    width: 520px;
+    width: 530px;
     top:0px;
     padding-left:0px;
+    left:-10px;
 }
 .myself-cont p{
     position: absolute;
@@ -60,39 +73,284 @@ svg{
 
 }
 
-.card{
-    font-family: 'Handlee', cursive;
-    left: 560px;
-    top:120px;
-    position:absolute;
-    background-color:white;
-    border:solid 4px black;
-    width: 25%;
-    box-shadow: 
-    15px 15px 0 -4px white,
-    15px 15px black;
-    padding:10px;
-}
-.auto{
-    font-family: 'Handlee', cursive;
-    left: 590px;
-    top:270px;
-    position:absolute;
 
-}
-div.cv{
-    position:absolute;
-    
-    top:100px;
-    left:970px;
-}
-div.education{
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@800&display=swap');
+
+  .container {
+    border-top-left-radius: 37px 140px;
+    border-top-right-radius: 23px 130px;
+    border-bottom-left-radius: 110px 19px;
+    border-bottom-right-radius: 120px 24px;
+    top:160px;
+    display: block;
+    position: relative;
+    border: solid 3px black;
+    padding: 40px 50px;
+    max-width: 500px;
+    width: 70%;
+    margin: 90px 600px 0;
+    font-size: 19px;
+    line-height: 28px;
+    transform: rotate(-1deg);
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+    transition: all 0.10s ease-in;
+    left:-40px;
     font-family: 'Handlee', cursive;
-    font-size: large;
-    line-height:2;
-    font-weight: 800;
-    left: 1340px;
-    top:270px;
-    text-align: justify;
-    position:absolute;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  
+  .container:hover {
+    transform: translateY(-10px) rotate(1deg);
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .container:hover .border {
+    transform: translateY(4px) rotate(-5deg);
+  }
+  
+  .border {
+    position: absolute;
+    transition: all 0.13s ease-in;
+  }
+  
+  .border:before,
+  .border:after {
+    color: #515d9c;
+    font-size: 15px;
+    position: absolute;
+  }
+  
+  .tl {
+    position: absolute;
+    left: -50px;
+    top: -63px;
+    font-weight: 600;
+  }
+  
+  .tl:before {
+    left: 120px;
+    top: 30px;
+  }
+  
+  .tl:after {
+    left: 0px;
+    top: 80px;
+  }
+  
+  .tr {
+    right: -50px;
+    top: -63px;
+    font-weight: 600;
+  }
+  
+  .tr:before {
+    left: 0;
+    top: 30px;
+  }
+  
+  .tr:after {
+    left: 130px;
+    top: 80px;
+  }
+  
+  .bl {
+    left: -50px;
+    bottom: -71px;
+    font-weight: 600;
+  }
+  
+  .bl:before {
+    left: 120px;
+    top: -30px;
+  }
+  
+  .bl:after {
+    left: 0px;
+    top: -90px;
+  }
+  
+  .br {
+    right: -50px;
+    bottom: -63px;
+    font-weight: 600;
+  }
+  
+  .br:before {
+    left: 0;
+    top: -30px;
+  }
+  
+  .br:after {
+    right: -10px;
+    top: -80px;
+  }
+  /*====================================== Bounce Animation =======================================*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@800&display=swap');
+
+  #box{
+    display: flex;
+    position: absolute;
+    top: 290px;
+    left: 35vw;
+    font-size: 15px;
+   
+    /* border: 2px solid red; */
+  }
+  
+  #box-2{
+    display: flex;
+    position: absolute;
+    top: 290px;
+    left: 35vw;
+    
+    font-size: 15px;
+    margin: 4px;
+  }
+
+  .alpha{
+    color: black;
+    font-family: 'Handlee', cursive;
+    font-family: 'Montserrat', sans-serif;
+    margin: 4px;
+  }
+  
+  .alpha.animated{
+    color: brown;
+    animation: ani 0.7s ease-in-out 1;
+  }
+  
+  @keyframes ani {
+    0%{
+      transform: scale(1.2,0.5);
+    }
+    16%{
+      transform: scale(1.2,0.5);
+    }
+    25%{
+      transform: scale(1.2,0.5);
+    }
+    32%{
+      transform: scale(0.8,1.1);
+    }
+    48%{
+      transform: scale(0.95,1);
+    }
+    64%{
+      transform: scale(0.8,1.2);
+    }
+    80%{
+      transform: scale(1.15,1);
+    }
+    87%{
+      transform: scale(1.15,1);
+    }
+    90%{
+      /* This will add the shaking effect one time almost at the end   */
+      transform: scale(0.8,1);
+    }
+    95%{
+      transform: scale(1.05,1);
+    }
+    100%{
+      transform: scale(1,1);
+    }
+  }
+
+ /*====================================== Bounce Animation =======================================*/ 
+
+/*======================================Aloha! Animation=======================================*/
+
+.tracking-in-expand-fwd {
+    animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    
 }
+
+@keyframes tracking-in-expand-fwd {
+0% {
+letter-spacing: -0.5em;
+transform: translateZ(-700px);
+opacity: 0;
+}
+40% {
+opacity: 0.6;
+}
+100% {
+transform: translateZ(0);
+opacity: 1;
+}
+}
+
+/*====================================== Aloha!Animation =======================================*/
+
+/*====================================== Image Animation =======================================*/
+
+.img-cont {
+  animation: img-cont 0.50s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes img-cont {
+0% {
+letter-spacing: -0.5em;
+transform: translateZ(-700px);
+opacity: 0;
+}
+40% {
+opacity: 0.6;
+}
+100% {
+transform: translateZ(0);
+opacity: 1;
+}
+}
+
+/*====================================== Image Animation =======================================*/
+
+/*====================================== I am Rithik Animation =======================================*/
+#box-2 {
+	animation: box-2 1.0s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.7s both;
+}
+
+
+ @keyframes box-2 {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*====================================== I am Rithik Animation =======================================*/
+
+/*====================================== Scroll Bar =======================================*/
+
+::-webkit-scrollbar{
+  width:0.5rem;
+}
+::-webkit-scrollbar-track{
+  background: hsl(0 100% 100% /1);
+  border-radius: 100vw;
+  margin-block: .5em;
+}
+::-webkit-scrollbar-thumb{
+  background: hsl(0 0% 50% /1);
+  border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: hsl(0 0% 60% /1);
+  border-radius: 100vw;
+}
+
+/*====================================== Home Fade =======================================*/
+.fade {
+  transition: opacity 0.7s ease-in;
+}
+
+.fadeOut { opacity: 0; }
+.fadeIn { opacity: 1; }
