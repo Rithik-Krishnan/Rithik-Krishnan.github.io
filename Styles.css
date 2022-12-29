@@ -1,0 +1,35 @@
+.svg-animation{
+    top:900px;
+    width:600px;  
+    padding:2px;
+    height:900px;
+    position:absolute;
+}
+.svg-animation svg{
+    width:80%;
+    height:100%;
+    
+}
+
+#head{
+    animation:rotate 0.9s infinite alternate;
+}
+@keyframes rotate{
+    0%{
+        transform: translateX(9px);
+    }
+    25%{
+        transform: translateX(-10px);
+    }
+    50%{
+        transform: translateX(2px); 
+    }
+    75%{
+        transform: translateX(2px);
+    }
+    100%{
+        transform: translateX(-2px);
+    }
+}
+
+
