@@ -3,15 +3,27 @@
 /* Applying CSS to sphere */
 .tagcloud {
   display: inline-block;
-  top: -70px;
-  left: 55%;
+  top: 300px;
+  left: 160%;
+  width:100%;
   font-weight: bold;
   letter-spacing: 1px;
   font-family: 'Bebas Neue', cursive;
   font-size: 20px;
+  background-size: 100% ;
+
 }
 
 /* Change color of each text in sphere on hover  */
 .tagcloud--item:hover {
   color: rgb(112, 112, 111);
 }
+.two{
+  position:absolute;
+  top:-14rem;
+  height:70px;
+  width:490px;
+  left:60px;
+  
+}
+

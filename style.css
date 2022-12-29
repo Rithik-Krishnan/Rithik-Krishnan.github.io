@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&display=swap');
 body{
-    background-color: #FAF9F6;
+    background-color: white;
     overflow-x: hidden;
 }
 nav{
@@ -348,9 +348,3 @@ opacity: 1;
 }
 
 /*====================================== Home Fade =======================================*/
-.fade {
-  transition: opacity 0.7s ease-in;
-}
-
-.fadeOut { opacity: 0; }
-.fadeIn { opacity: 1; }
