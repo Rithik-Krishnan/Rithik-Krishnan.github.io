@@ -33,3 +33,33 @@
 }
 
 
+#right-steam{
+    animation: 1s moveup ease infinite;
+}
+
+
+#let-steam{
+    animation: 1s moveup1 ease infinite;
+}
+
+@keyframes moveup {
+    from {
+        transform: translateY(0); opacity: 0;
+    }
+    to{
+        transform: translateY(-20px); opacity: 1;
+    }
+}
+
+@keyframes moveup1 {
+    from {
+        transform: translateY(0); opacity: 0;
+    }
+    to{
+        transform: translateY(-30px); opacity: 1;
+    }
+}
+
+
+
+transform orign
