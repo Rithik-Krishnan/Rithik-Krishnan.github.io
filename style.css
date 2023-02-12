@@ -367,7 +367,7 @@
     transform: translate(-50%, -50%);
     width: 23rem;
     padding: 3rem;
-    border: 2px solid blue;
+    border: 2px solid #000000;
     border-radius: 1rem;;
   }
 
@@ -375,7 +375,7 @@
     margin: 0px 0 -0.125rem;
     padding: 0;
     text-align: center;
-    color: blue;
+    color: #000000;
     font-size: 24px;
     font-weight: 400;
   }
@@ -417,7 +417,7 @@
     left: 10px;
     padding: 0.625rem 0;
     font-size: 1rem;
-    color: blue;
+    color: #000000;
     pointer-events: none;
     transition: 0.5s;
   }
@@ -427,7 +427,7 @@
   .box .inputBox input:not([value=""])~label {
     top: -1.125rem;
     left: 10px;
-    color: blue;
+    color: #000000;
     font-size: 0.75rem;
     background-color: #fff;
     height: 10px;
@@ -437,14 +437,14 @@
 
   .box .inputBox input:focus {
     outline: none;
-    border: 2px solid blue;
+    border: 2px solid #000000;
   }
 
   .box input[type="submit"] {
     border: none;
     outline: none;
     color: #fff;
-    background-color: blue;
+    background-color: #000000;
     padding: 0.625rem 1.25rem;
     cursor: pointer;
     border-radius: 0.312rem;
@@ -453,14 +453,14 @@
   }
 
   .box input[type="submit"]:hover {
-    background-color: blue;
+    background-color: #000000;
     box-shadow: 0 1px 1px 0 rgba(66, 133, 244, 0.45), 0 1px 3px 1px rgba(66, 133, 244, 0.3);
   }
 
   textarea {
     width: 350px;
     padding: 12px;
-    border: 1px solid blue;
+    border: 1px solid #000000;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -469,7 +469,7 @@
   }
 
   .sbut {
-    background-color: blue;
+    background-color: #000000;
     color: #fff;
   }
 
