@@ -1,2 +1,0 @@
-# Portfolio-Rithik
-My Website
