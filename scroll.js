@@ -47,3 +47,19 @@ const soundTrack = (soundState) => {
         myAudio.pause();
     }
 }
+
+window.onload = function() {
+
+  var pageTitle = document.title;
+  var attentionMessage = "Come on mate don't go!😭";
+
+  document.addEventListener('visibilitychange', function(e) {
+    var isPageActive = !document.hidden;
+
+    if(!isPageActive){
+      document.title = attentionMessage;
+    }else {
+      document.title = pageTitle;
+    }
+  });
+};
