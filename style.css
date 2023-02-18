@@ -367,15 +367,14 @@
     transform: translate(-50%, -50%);
     width: 23rem;
     padding: 3rem;
-    border: 2px solid #000000;
-    border-radius: 1rem;;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
   }
 
   .box h2 {
     margin: 0px 0 -0.125rem;
     padding: 0;
     text-align: center;
-    color: #000000;
     font-size: 24px;
     font-weight: 400;
   }
@@ -402,13 +401,14 @@
   }
 
   .box .inputBox input {
-    width: 75%;
-    padding: 1rem 35px;
+    width: 79%;
+    padding: 1rem 11px;
     font-size: 1rem;
     letter-spacing: 0.062rem;
     margin-bottom: 1.875rem;
     background: transparent;
-    border-radius: 4px;
+    border :1px solid #ccc;
+    border-radius:4px;
   }
 
   .box .inputBox label {
@@ -417,7 +417,7 @@
     left: 10px;
     padding: 0.625rem 0;
     font-size: 1rem;
-    color: #000000;
+    color: #5f6368;
     pointer-events: none;
     transition: 0.5s;
   }
@@ -427,7 +427,7 @@
   .box .inputBox input:not([value=""])~label {
     top: -1.125rem;
     left: 10px;
-    color: #000000;
+    color: #1a73e8;
     font-size: 0.75rem;
     background-color: #fff;
     height: 10px;
@@ -437,40 +437,42 @@
 
   .box .inputBox input:focus {
     outline: none;
-    border: 2px solid #000000;
+    border: 2px solid #1a73e8;
   }
 
-  .box input[type="submit"] {
+  .box input[type="button"] {
     border: none;
     outline: none;
     color: #fff;
-    background-color: #000000;
+    background-color: #1a73e8;
     padding: 0.625rem 1.25rem;
     cursor: pointer;
     border-radius: 0.312rem;
-    font-size: 1rem;
-    float: right;
+    font-size: 0.7rem;
+    float: left;
   }
 
-  .box input[type="submit"]:hover {
-    background-color: #000000;
+  .box input[type="button"]:hover {
+    background-color: #287ae6;
     box-shadow: 0 1px 1px 0 rgba(66, 133, 244, 0.45), 0 1px 3px 1px rgba(66, 133, 244, 0.3);
   }
 
   textarea {
-    width: 350px;
+    width: 314px;
     padding: 12px;
-    border: 1px solid #000000;
+    border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    font-size: large;
   }
 
-  .sbut {
-    background-color: #000000;
-    color: #fff;
+  textarea::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: large;
   }
 
   .svg-animation {
@@ -1189,6 +1191,7 @@
     width: 40px;
     height: 60px;
     position: absolute;
+    left:3.3rem;
   }
 
   /*magic wall*/
