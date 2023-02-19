@@ -3,6 +3,7 @@
 
   body {
     overflow-x: hidden;
+    
   }
 
   nav {
@@ -45,7 +46,7 @@
   }
 
   #git:hover {
-    fill: #4d0096;
+    fill: #006eed;
     transition: 0.3s;
   }
 
@@ -362,7 +363,7 @@
 
   .box {
     position: absolute;
-    top: 208rem;
+    top: 291rem;
     left: 20rem;
     transform: translate(-50%, -50%);
     width: 23rem;
@@ -471,10 +472,14 @@
 
   textarea::placeholder{
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 600;
-    font-size: large;
+    font-weight: 400;
+    font-size: medium;
   }
+  textarea:focus{
+    outline:2px solid #1a73e8;
+    
 
+  }
   .svg-animation {
     top: 980px;
     width: 900px;
@@ -531,6 +536,34 @@
 
   .svg-animation4 svg {
     width: 80%;
+    height: 100%;
+  }
+
+  .svg-animation5 {
+    top: 182rem;
+    width: 45rem;
+    padding: 2px;
+    height: 45rem;
+    position: absolute;
+    left: 305px;
+  }
+
+  .svg-animation5 svg {
+    width: 90%;
+    height: 100%;
+  }
+
+  .svg-animation6 {
+    top: 233rem;
+    width: 30rem;
+    padding: 2px;
+    height: 30rem;
+    position: absolute;
+    left: 705px;
+  }
+
+  .svg-animation6 svg {
+    width: 90%;
     height: 100%;
   }
 
@@ -766,22 +799,79 @@
     }
 
     to {
-      transform: translateY(10px);
+      transform: translateY(-10px);
       opacity: 0;
     }
   }
 
+  #code{
+    animation: 1.3s codes infinite;
+  }
+
+  @keyframes codes {
+    from {
+      transform: translateY(0);
+    }
+
+    to {
+      transform: translateY(-10px);
+      opacity: 0.1;
+    }
+  }
+  #boy-head{
+    animation:2s ok infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  @keyframes ok{
+    0%{
+      transform: rotate(0deg)
+    }
+    10%{
+      transform: rotate(1deg);
+    }
+    20%{
+      transform: rotate(2deg);
+    }
+    30%{
+      transform: rotate(3deg);
+    } 
+    40%{
+      transform: rotate(4deg);
+    }
+    50%{
+      transform: rotate(3deg);
+    }
+    60%{
+      transform: rotate(2deg);
+    }
+    70%{
+      transform: rotate(1deg);
+    }
+    80%{
+      transform: rotate(0deg);
+    }
+    90%{
+      transform: rotate(-1deg);
+    }
+    100%{
+      transform: rotate(-2deg);
+    }
+  }
+
+
   #elFj76Tyagu1 {
     height: 80%;
     width: 50%;
-    top: 175rem;
+    top: 295rem;
     left: 40rem;
     position: absolute;
   }
 
   #rocket-moon {
     position: absolute;
-    top: 175rem;
+    top: 75rem;
     height: 10%;
     width: 20%;
     left: 60rem;
@@ -1274,7 +1364,7 @@
     background-color: #333333;
     padding: 3.4rem;
     width: 350rem;
-    top: 230.6rem;
+    top: 310.6rem;
     position: absolute;
     left: -2rem;
   }
@@ -1285,7 +1375,7 @@
     position: absolute;
     height: 2rem;
     width: 2rem;
-    top: 203.6rem;
+    top: 283.6rem;
     left: 33rem;
   }
 
@@ -1293,7 +1383,7 @@
     position: absolute;
     height: 2.2rem;
     width: 2rem;
-    top: 203.5rem;
+    top: 283.5rem;
     left: 36.4rem;
   }
 
@@ -1301,7 +1391,7 @@
     position: absolute;
     height: 3.5rem;
     width: 3.4rem;
-    top: 202.9rem;
+    top: 282.9rem;
     left: 38.9rem;
   }
 
@@ -1310,7 +1400,7 @@
     height: 2.1rem;
     width: 2.3rem;
     fill: white;
-    top: 203.3rem;
+    top: 283.3rem;
     left: 42.8rem;
   }
 
@@ -1435,13 +1525,13 @@
   #cell {
     color: white;
     position: absolute;
-    top: 232rem;
+    top: 312rem;
     left:1rem;
   }
 
   #home {
     position: absolute;
-    top: 234.5rem;
+    top: 314.5rem;
     left:0.9rem;
   }
 #cell:hover{
@@ -1467,7 +1557,7 @@
 
 a#srccode{
   position: absolute;
-  top:233rem;
+  top:313rem;
   left:65rem;
   
 }
