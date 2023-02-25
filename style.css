@@ -344,7 +344,7 @@
   ::-webkit-scrollbar-track {
     background: hsl(0 100% 100% /1);
     border-radius: 100vw;
-    margin-block: 0em;
+    margin-block: -.2em;
   }
 
   ::-webkit-scrollbar-thumb {
@@ -1568,3 +1568,61 @@ a#srccode{
 a#srccode img#srccode:hover{
   color:#e01212;
 }
+
+.header{
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 1005;
+  height: 80px;
+}
+
+header h4 {
+  position: absolute;
+  left: 10%;
+  bottom: 1rem;
+  font-size:1.6rem;
+
+}
+/* splash screen */
+
+.intro {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #161616;
+  transition: 1s;
+  font-family: "Poppins", sans-serif; 
+
+}
+
+.logo-header {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+
+.logo {
+  position: relative;
+  display: inline-block;
+  bottom: -20px;
+  opacity: 0;
+
+}
+.logo.active {
+  
+  opacity: 1;
+  transform: ease-in-out 1.5s;
+}
+
+.logo.fade{
+  bottom: 150px;
+  opacity: 0;
+  transform: ease-in-out 0.5s;
+}
+
